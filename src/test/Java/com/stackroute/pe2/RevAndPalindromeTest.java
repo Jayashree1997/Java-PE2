@@ -7,7 +7,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class RevAndPalindromeTest {
-    com.stackroute.pe2.RevAndPalindrome revAndPalindrome;
+    RevAndPalindrome revAndPalindrome;
     @Before
     public void setup() {
         System.out.println("Inside Before");
