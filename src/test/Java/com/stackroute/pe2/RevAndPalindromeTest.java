@@ -32,12 +32,12 @@ public class RevAndPalindromeTest {
         assertEquals("madam",actualResult);
     }
     @Test
-    public void givenAReversedStringShouldReturnIfItIsPalindrome(){
+    public void givenAReversedStringShouldReturnPallindrome(){
         revAndPalindrome = new RevAndPalindrome();
         //The reversed string is given as input here
-        String actualResult= revAndPalindrome.revAndPalindrome("madam");
+        String actualResult= revAndPalindrome.revAndPalindrome("madamm");
         //This method checks if the reversed string is a palindrome or not
-        assertEquals("Given String is Palindrome",actualResult);
+        assertEquals("Given String is not a Palindrome",actualResult);
 
     }
 }
